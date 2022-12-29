@@ -1,14 +1,8 @@
-//
-//  CodeReloadApp.swift
-//  CodeReload
-//
-//  Created by Neil McNaught on 03/10/2022.
-//
-
 import SwiftUI
+import ReloadServer
 
 @main
-struct CodeReloadApp: App {
+struct CodeReloadApp: App {    
     var body: some Scene {
         WindowGroup {
             ContentView()
